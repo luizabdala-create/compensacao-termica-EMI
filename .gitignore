@@ -1,0 +1,16 @@
+# Dados brutos (não versionados)
+*.pkl
+*.h5
+*.mat
+*.npy
+*.npz
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Saídas grandes e temporários
+checkpoints/
+logs/
+*.log
