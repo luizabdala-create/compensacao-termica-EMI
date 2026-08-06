@@ -16,9 +16,16 @@ assinatura de dano e desempenho na classificação (detecção e identificação
 
 ## Conteúdo
 
-A pasta `notebooks/` reúne os notebooks Jupyter usados no desenvolvimento — compensação por
-Park, Random Forest e Autoencoder, cálculo dos índices RMSD e CCDM, curvas comparativas e
-classificação de dano. A subpasta `notebooks/testes/` contém os testes exploratórios.
+- `notebooks/` — notebooks Jupyter usados no desenvolvimento (compensação por Park, Random Forest
+  e Autoencoder, cálculo dos índices RMSD e CCDM, curvas comparativas e classificação de dano);
+  a subpasta `notebooks/testes/` contém os testes exploratórios.
+- `ARTIGO_AE_PARK_RF_FINAL/` — pipeline de análise em Python, organizado por etapa: auditoria da
+  base (`00_auditoria`), compensação térmica (`02_compensacao`), classificação de dano
+  (`03_dano_binario`, `04_dano_multiclasse`), estudos por faixa e por temperatura de referência
+  (`05_`–`07_`), ablações e análises complementares (`08_`, `09_`), figuras e tabelas
+  (`10_`–`12_`) e o modelo de forma (`13_modelo_forma`).
+- `scripts_iniciais/` — versões iniciais do desenvolvimento.
+- `graficos_relatorio.py` — reproduz os gráficos de resultados do relatório.
 
 ## Ambiente
 
